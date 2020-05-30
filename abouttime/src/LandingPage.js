@@ -240,7 +240,7 @@
 
 import React, { Component } from 'react';
 import {Container,Jumbotron, Form, Navbar, Nav, Button, Image, Row, Col} from "react-bootstrap";
-import Link from 'react-router-dom/Link';
+// import Link from 'react-router-dom/Link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "bootstrap-css-only/css/bootstrap.min.css";
