@@ -7,6 +7,6 @@ Food and Grocery delivery service
 2. Extract the documents and folders to a directory of your choice.
 3. Open your command line and cd to the location which it was extracted to.
 4. Cd to abouttime.
-  Type the following on the command line:
-5. npm install
-6. npm start
+5. Type the following on the command line:
+6. npm install
+7. npm start
