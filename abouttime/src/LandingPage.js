@@ -266,7 +266,6 @@ class LandingPage extends Component{
 
   render(){
     return(
-      <div >
         <div style={{position:'relative', backgroundColor:'#FFFFFF', width:'1152px', margin:'auto'}}>
           {/* Jumbotron */}
           <Container className="" style={{backgroundColor:'#FAC102', position:'absolute', marginTop:'0px', height:'675px', width:'1152px'}} fluid>
@@ -275,6 +274,9 @@ class LandingPage extends Component{
               <div style={{marginLeft:'61px', marginTop:'27px'}}>
                 <Image className="mb-1 mr-3" src={appLogo} heigth="28px" width="28px" alt="logo"/>#AboutTime
               </div>
+            </div>
+            <div>
+              <Image className="" src={redlineIcon} style={{position:'absolute', marginTop:'40px', marginLeft:'190px'}} heigth="2px" width="90px" alt="logo"/>
             </div>
             <div style={{position:'absolute', marginTop:'18px', marginLeft:'954px'}}>
               <Button style={signUpBtn} variant="danger">Sign up</Button>
@@ -301,9 +303,9 @@ class LandingPage extends Component{
               <Image className="" src={barLogo} heigth="224px" width="41px" alt="logo"/>
             </div>
           </Container>
-          {/* <div style={{position:'absolute', marginTop:'654px', marginLeft:'640px'}}>
-            <Image className="" src={polygonLogo} heigth="65px" width="127px" alt="logo"/>
-          </div> */}
+          <div>
+            <Image className="" style={{position:'absolute', marginTop:'654px', marginLeft:'640px'}} src={polygonLogo} heigth="65px" width="127px" alt="logo"/>
+          </div>
           {/* Fast delivery download app */}
           <Container style={{ position:'absolute', marginTop:'757px', marginLeft:'0px', height:'347px', width:'923px'}} fluid>
             <div style={{backgroundColor:"#f7e8b2", position:'absolute', marginLeft:'-15px', height:'347px', width:'407px'}}>
@@ -388,7 +390,6 @@ class LandingPage extends Component{
             </Row>
           </Container> */}
         </div>
-      </div>
     );
   }
 
