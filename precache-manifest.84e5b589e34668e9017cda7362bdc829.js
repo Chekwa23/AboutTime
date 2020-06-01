@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/AboutTime/static/media/polygonLogo.14d26143.svg"
   },
   {
-    "revision": "77686e70e55a4160424d85f20d42fb8c",
+    "revision": "b238c0350e6e9d602c7cf6938a8254c2",
     "url": "/AboutTime/index.html"
   }
 ];
