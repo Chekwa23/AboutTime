@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {HashRouter, Route, Switch} from "react-router-dom";
 import './index.css';
 import LandingPage from './LandingPage';
 import signInPage from './signInPage';
@@ -7,8 +8,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
-    {/* <signInPage /> */}
+    <HashRouter>
+      <Switch>
+        <Route exact path ='/' component={LandingPage} />
+        {/* <signInPage /> */}
+      </Switch>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
