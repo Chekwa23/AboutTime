@@ -285,11 +285,11 @@ class LandingPage extends Component{
               <p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p>
             </div>
             <div style={{backgroundColor:'', position:'absolute', marginTop:'137px', marginLeft:'120px', height:'356px', width:'416px'}}>
-              <p className="" style={{position:'absolute', marginTop:'0px', fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy'}}><Image className="mb-1 mr-2" src={locationLogo} heigth="21px" width="15px" alt="logo"/>Everywhere</p>
-              <p className="" style={{position:'absolute', marginTop:'21px', fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy'}}>Best Organic food, delivery food</p>
-              <p className="" style={{position:'absolute', marginTop:'171px', fontSize:'16px', fontWeight:'500', fontFamily:'Gilroy'}}>Time-definite and day definite delivery based on your location.</p>
+              <p className="" style={{ fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy'}}><Image className="mb-1 mr-2" src={locationLogo} heigth="21px" width="15px" alt="logo"/>Everywhere</p>
+              <p className="" style={{ fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy'}}>Best Organic food, delivery food</p>
+              <p className="" style={{ fontSize:'16px', fontWeight:'500', fontFamily:'Gilroy'}}>Time-definite and day definite delivery based on your location.</p>
 
-              <Form className="" style={{position:'absolute', marginTop:'210px'}}>
+              <Form className="" style={{}}>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control size="lg" type="text" placeholder="Enter your city"/>
                 </Form.Group>
