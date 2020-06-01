@@ -304,10 +304,10 @@ class LandingPage extends Component{
             </div>
           </Container>
           <div>
-            <Image className="" style={{position:'absolute', marginTop:'654px', marginLeft:'640px'}} src={polygonLogo} heigth="65px" width="127px" alt="logo"/>
+            <Image className="" style={{position:'absolute', marginTop:'654px', marginLeft:'513px'}} src={polygonLogo} heigth="65px" width="127px" alt="logo"/>
           </div>
           {/* Fast delivery download app */}
-          <Container style={{ position:'absolute', marginTop:'757px', marginLeft:'0px', height:'347px', width:'923px'}} fluid>
+          <Container style={{ position:'absolute', marginTop:'757px', marginLeft:'0px', height:'347px', width:'1152px'}} fluid>
             <div style={{backgroundColor:"#f7e8b2", position:'absolute', marginLeft:'-15px', height:'347px', width:'407px'}}>
               <Image style={{position:'absolute', marginTop:'26px', marginLeft:'119px', zIndex:'1'}} src={yellowdotsIcon} heigth="80px" width="94px" alt="logo"/>
               <Image style={{position:'absolute', marginTop:'42px', marginLeft:'192px', zIndex:'2'}} src={iphoneIcon} heigth="279px" width="138px" alt="logo"/>
@@ -315,7 +315,7 @@ class LandingPage extends Component{
             <div style={{position:'absolute', marginTop:'75px', marginLeft:'457px'}}>
               <p style={{fontFamily:'gilroy', fontWeight:'bold', fontSize:'28px'}}>Fast Delivery everywhere</p>
             </div>
-            <div style={{position:'absolute', marginTop:'129px', marginLeft:'457px'}}>
+            <div style={{position:'absolute', marginTop:'129px', marginLeft:'457px', width:'466px'}}>
               <p style={{fontFamily:'gilroy', fontWeight:'normal', fontSize:'18px'}}>Lorem ipsum dolor sit amet, conse0ctetur adipiscing elit. Lectus sapien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
             </div>
             <div style={{position:'absolute', marginTop:'228px', marginLeft:'457px'}}>
@@ -348,14 +348,14 @@ class LandingPage extends Component{
               <Button style={downloadappBtn} variant="danger" inline><Image className="mb-1 mr-2" src={playstoreIcon} heigth="20px" width="19px" alt="logo"/>Get on the Playstore</Button>    
             </div>
             
-            <Image style={{position:'absolute', marginTop:'43px', marginLeft:'953px', zIndex:'1'}} src={yellowdotsIcon} heigth="226px" width="112px" alt="logo"/>
+            <Image style={{position:'absolute', marginTop:'43px', marginLeft:'910px', zIndex:'1'}} src={yellowdotsIcon} heigth="226px" width="112px" alt="logo"/>
             <Image style={{position:'absolute', marginTop:'208px', marginLeft:'672px', zIndex:'1'}} src={yellowdotsIcon} heigth="226px" width="112px" alt="logo"/>
-            <Image style={{position:'absolute', marginTop:'30px', marginLeft:'786px', zIndex:'3'}} src={iphoneIcon} heigth="270px" width="133px" alt="logo"/>
+            <Image style={{position:'absolute', marginTop:'30px', marginLeft:'763px', zIndex:'3'}} src={iphoneIcon} heigth="270px" width="133px" alt="logo"/>
             <Image style={{position:'absolute', marginTop:'52px', marginLeft:'693px', zIndex:'2'}} src={iphoneIcon} heigth="226px" width="112px" alt="logo"/>
-            <Image style={{position:'absolute', marginTop:'52px', marginLeft:'897px', zIndex:'2'}} src={iphoneIcon} heigth="226px" width="112px" alt="logo"/>
+            <Image style={{position:'absolute', marginTop:'52px', marginLeft:'855px', zIndex:'2'}} src={iphoneIcon} heigth="226px" width="112px" alt="logo"/>
           </Container>
           {/* Footer */}
-          <Container style={{backgroundColor:"#FFFFFF", position:'absolute', marginTop:'2224px', marginLeft:'139px', height:'280px', width:'894px'}} fluid>
+          <Container style={{position:'absolute', marginTop:'2224px', marginLeft:'139px', height:'280px', width:'894px'}} fluid>
             <Row>
               <Col xs={5} md={5} lg={5}>
                 <div style={{position:'absolute'}}>
