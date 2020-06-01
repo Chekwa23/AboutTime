@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import LandingPage from './LandingPage';
+import signInPage from './signInPage';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <LandingPage />
+    {/* <signInPage /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
