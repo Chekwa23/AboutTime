@@ -293,7 +293,7 @@ class LandingPage extends Component{
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control size="lg" type="text" placeholder="Enter your city"/>
                 </Form.Group>
-                <Button style={roundBtn2} variant="danger">Find Restaurants</Button>
+                <Button style={roundBtn2} variant="danger">Find Restaurantssss</Button>
               </Form>
             </div>
             <div style={{position:'absolute', marginTop:'91px', marginLeft:'679px'}}>
