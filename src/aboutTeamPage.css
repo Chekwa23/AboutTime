@@ -1,0 +1,8 @@
+.topbar:hover {
+    /* text-decoration: none; */
+    color: #FB1242 !important;
+}
+.active {
+    text-decoration: none; 
+    color: #FB1242 !important;
+}

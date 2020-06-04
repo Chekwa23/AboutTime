@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Form, Button, Image, Row, Col} from "react-bootstrap";
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
+import './aboutTeamPage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "bootstrap-css-only/css/bootstrap.min.css";
@@ -43,13 +44,13 @@ class LandingPage extends Component{
               <Image className="" src={redlineIcon} style={{position:'absolute', marginTop:'40px', marginLeft:'190px'}} height="2px" width="133px" alt="logo"/>
             </div>
             <div style={{position:'absolute', marginTop:'29px', marginLeft:'352px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>How it works</p></Link>
+              <Link style={{textDecoration:'none'}} to={{state:{}}}><p className="topbar" style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>How it works</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'29px', marginLeft:'484px'}}>
-              <Link style={{textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>About Us</p></Link>
+              <Link style={{textDecoration:'none'}} exact to='./AboutUs'><p className="topbar" style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>About Us</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'29px', marginLeft:'587px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>Careers</p></Link>
+              <Link style={{textDecoration:'none'}} to={{state:{}}}><p className="topbar" style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>Careers</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'30px', marginLeft:'869px'}}>
               <Link style={{textDecoration:'none'}} to={{state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p></Link>
@@ -58,15 +59,15 @@ class LandingPage extends Component{
               <Link style={{textDecoration:'none'}} to={{state:{}}}><Button style={signUpBtn} variant="danger">Sign up</Button></Link>
             </div>            
             <div style={{backgroundColor:'', position:'absolute', marginTop:'137px', marginLeft:'120px', height:'356px', width:'416px'}}>
-              <p className="" style={{ fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy', color:'#4F4F4F'}}><Image className="mb-1 mr-2" src={locationLogo} height="21px" width="15px" alt="logo"/>Everywhere</p>
-              <p className="" style={{ fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy', color:'#333333'}}>Best Organic food, delivery food</p>
-              <p className="" style={{ fontSize:'16px', fontWeight:'500', fontFamily:'Gilroy', color:'#333333'}}>Time-definite and day definite delivery based on your location.</p>
+              <p className="" style={{position:'absolute', marginTop:'0px', fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy', color:'#4F4F4F'}}><Image className="mb-1 mr-2" src={locationLogo} height="21px" width="15px" alt="logo"/>Everywhere</p>
+              <p className="" style={{position:'absolute', marginTop:'21px', fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy', color:'#333333'}}>Best Organic food, delivery food</p>
+              <p className="" style={{position:'absolute', marginTop:'171px', fontSize:'16px', fontWeight:'500', fontFamily:'Gilroy', color:'#333333'}}>Time-definite and day definite delivery based on your location.</p>
 
-              <Form className="" style={{}}>
+              <Form className="" style={{position:'absolute', marginTop:'215px', width:'416px'}}>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control size="lg" type="text" placeholder="Enter your city"/>
                 </Form.Group>
-                <Button style={roundBtn2} variant="danger">Find Restaurants</Button>
+                <Button className="mt-2" style={roundBtn2} variant="danger">Find Restaurants</Button>
               </Form>
             </div>
             <div style={{position:'absolute', marginTop:'91px', marginLeft:'679px'}}>
@@ -171,15 +172,15 @@ class LandingPage extends Component{
             <div style={{position:'absolute', marginLeft:'650px', marginTop:'5px', width:'240px'}}>
               <ul style={{listStyle:'none', fontWeight:'600', color:'#828282', fontSize:'14px'}}>
                 <li style={{color:'#333333', fontSize:'18px'}}>Get to know our Team</li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Akana David</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Charles Cookey</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Ikechukwu Imala</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Dwight Ojukwu</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Lucas Chekwa</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Onyeukwu Samuel</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Eniola Olaiwole</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Yisau Sammad</Link></li>
-                <li><Link style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Okemati Lanre</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Akana David</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Charles Cookey</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Ikechukwu Imala</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Dwight Ojukwu</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Lucas Chekwa</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Onyeukwu Samuel</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Eniola Olaiwole</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Yisau Sammad</Link></li>
+                <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Okemati Lanre</Link></li>
               </ul>
             </div>
           </Container>
