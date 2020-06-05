@@ -1,0 +1,165 @@
+body{
+    margin: 0rem;
+    font-size: 62.5%;
+
+    overflow: hidden;
+    
+}
+
+.container {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.signUpDetails {
+    margin-left: 100px;
+}
+
+.topBar {
+    margin-top: 24px;
+}
+.topBar p {
+    display: inline-block;
+    width: 92px;
+    height: 20px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #fb1242;
+
+}
+
+.leftMiddle {
+    margin-top: 30px;
+}
+
+.leftMiddle .signUpFree {
+    width: 183px;
+    height: 37px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 156%;
+
+    color: #4f4f4f;
+}
+
+.leftMiddle .registeredAccount {
+    width: 257px;
+    height: 27px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150.5%;
+
+    color: #828282;
+}
+
+.formLabel {
+    height: 25px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 156%;
+
+    color: #828282;
+}
+
+.formPlaceholder {
+    height: 25px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 16px;
+    line-height: 156%;
+
+    color: #4f4f4f;
+}
+
+.formButton {
+    width: 145px;
+    height: 44px;
+
+    background-color: #fb1242;
+    border-radius: 24px;
+}
+
+.signUpPicture {
+    margin-left: 220px;
+    
+    height: 100vh;
+    background-color: #fac102;
+}
+
+.signUpPicture .gotAccount {
+    width: 239px;
+    height: 20px; 
+    margin-top: 34px;
+
+    margin-left: 350px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #828282;
+    
+}
+
+.gotAccount span .link {
+    color: #fb1242;
+}
+
+.signUpPicture .truckImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    margin-top: 100px;
+}
+
+.deliverWithTrucks {
+    width: 286px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+
+    color: #4f4f4f;
+}
+
+.loremIpsum {
+    margin-left: auto;
+    margin-right: auto;
+    width: 466px;
+    height: 81px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150.5%;
+    text-align: center;
+
+    color: #828282;
+
+}

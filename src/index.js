@@ -4,6 +4,7 @@ import {HashRouter, Route, Switch} from "react-router-dom";
 import './index.css';
 import LandingPage from './LandingPage';
 import signInPage from './signInPage';
+import signUpPage from './signUpPage'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -11,7 +12,9 @@ ReactDOM.render(
     <HashRouter>
       <Switch>
         <Route exact path ='/' component={LandingPage} />
-        {/* <signInPage /> */}
+        <Route path = "/signIn" component = {signInPage} />
+        <Route path = "/signUp" component = {signUpPage} />
+        
       </Switch>
     </HashRouter>
   </React.StrictMode>,
