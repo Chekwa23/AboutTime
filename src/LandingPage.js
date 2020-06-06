@@ -63,7 +63,7 @@ class LandingPage extends Component{
               <p className="" style={{position:'absolute', marginTop:'21px', fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy', color:'#333333'}}>Best Organic food, delivery food</p>
               <p className="" style={{position:'absolute', marginTop:'171px', fontSize:'16px', fontWeight:'500', fontFamily:'Gilroy', color:'#333333'}}>Time-definite and day definite delivery based on your location.</p>
 
-              <Form className="" style={{position:'absolute', marginTop:'215px', width:'416px'}}>
+              <Form className="" style={{position:'absolute', marginTop:'231px', width:'416px'}}>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Control size="lg" type="text" placeholder="Enter your city"/>
                 </Form.Group>
