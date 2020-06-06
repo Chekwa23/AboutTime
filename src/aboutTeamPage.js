@@ -85,12 +85,10 @@ class aboutTeamPage extends Component{
             <p style={{position:'absolute', fontWeight:'600', fontSize:'20px', fontFamily:'gilroy', color:'#4F4F4F', marginTop:'302px', marginLeft:'438px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus lectus sit sit. Ut nunc facilisi senectus ut at risus feugiat lectus. Velit morbi commodo habitant risus ultricies elit. Cursus at nulla dolor ac vulputate. Ultrices.</p>
           </Container>
           {/* Footer */}
-          <Container style={{position:'absolute', marginTop:'1274px', marginLeft:'139px', height:'280px', width:'894px'}} fluid>
-            <div style={{position:'absolute', marginLeft:'-15px', marginTop:'0px', width:'466px'}}>
-              <p style={{fontWeight:'bold', color:'#FB1242', fontSize:'24px'}}><Image className="mb-1 mr-3" src={appLogo} height="45px" width="45px" alt="logo"/>#AboutTime</p>
-              <p style={{fontWeight:'normal', color:'#4F4F4F', fontSize:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus spien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
-            </div>
-            <div style={{position:'absolute', marginLeft:'480px', marginTop:'5px', width:'180px'}}>
+          <Container style={{backgroundColor:'#f7f7f7', position:'absolute', marginTop:'1274px', marginLeft:'0px', height:'380px', width:'1152px'}} fluid>
+            <p style={{position:'absolute', marginTop:'79px', marginLeft:'139px', fontWeight:'bold', color:'#FB1242', fontSize:'24px'}}><Image className="mb-1 mr-3" src={appLogo} height="45px" width="45px" alt="logo"/>#AboutTime</p>
+            <p style={{position:'absolute', marginTop:'134px', marginLeft:'139px', fontWeight:'normal', color:'#4F4F4F', fontSize:'18px', width:'466px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus spien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
+            <div style={{position:'absolute', marginLeft:'620px', marginTop:'84px', width:'180px'}}>
               <ul style={{listStyle:'none', fontWeight:'600', color:'#828282', fontSize:'14px'}}>
                 <li style={{color:'#333333', fontSize:'18px'}}>Our Restaurants</li>
                 <li>Chicken Republic</li>
@@ -100,7 +98,7 @@ class aboutTeamPage extends Component{
                 <li>Bernadines</li>
               </ul>
             </div>
-            <div style={{position:'absolute', marginLeft:'650px', marginTop:'5px', width:'240px'}}>
+            <div style={{position:'absolute', marginLeft:'810px', marginTop:'84px', width:'240px'}}>
               <ul style={{listStyle:'none', fontWeight:'600', color:'#828282', fontSize:'14px'}}>
                 <li style={{color:'#333333', fontSize:'18px'}}>Get to know our Team</li>
                 <li><Link className="topbar" style={{color:'#828282', textDecoration:'none'}} to={{pathname:'./AboutUs', state:{}}}>Akana David</Link></li>
