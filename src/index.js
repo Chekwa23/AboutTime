@@ -15,8 +15,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path ='/' component={LandingPage} />
         <Route exact path ='/AboutUs' component={aboutTeamPage} />
-        {/* <Route exact path ='/signInPage' component={signInPage} />
-        <Route exact path ='/signUpPage' component={signUpPage} /> */}
+        <Route exact path ='/signInPage' component={signInPage} />
+        <Route exact path ='/signUpPage' component={signUpPage} />
         {/* <signInPage /> */}
       </Switch>
     </HashRouter>

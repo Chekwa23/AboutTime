@@ -9,13 +9,8 @@ import './aboutTeamPage.css';
 // import { MDBBtn } from "mdbreact";
 import profilePhotoIcon from './images/profilePhotoIcon.svg';
 import appLogo from './images/appLogo.svg';
-import playstoreIcon from './images/playstoreIcon.svg';
-import appstoreIcon from './images/appstoreIcon.svg';
 import yellowdotsIcon from './images/yellowdotsIcon.svg';
-import iphoneIcon from './images/iphoneIcon.svg';
-import restaurantIcon from './images/restaurantIcon.svg';
 import redlineIcon from './images/redlineIcon.svg';
-import polygonLogo from './images/polygonLogo.svg';
 import arrowIcon from './images/arrowIcon.svg';
 import yellowEllipseIcon from './images/yellowEllipseIcon.svg';
 import chekwaPic from './images/chekwaPic.svg';
@@ -29,7 +24,7 @@ class aboutTeamPage extends Component{
 
   render(){
     return(
-        <div style={{position:'relative', backgroundColor:'#FFFFFF', width:'1152px', margin:'auto'}}>
+        <div style={{position:'relative', backgroundColor:'#FFFFFF', width:'1152px', height:'1594px', margin:'auto'}}>
           {/* Jumbotron */}
           <Container className="" style={{backgroundColor:'#FAC102', position:'absolute', marginTop:'0px', height:'533px', width:'1152px'}} fluid>
             {/* white rectangle */}
@@ -51,11 +46,11 @@ class aboutTeamPage extends Component{
               <Link style={{textDecoration:'none'}} to={{state:{}}}><p className="topbar" style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>Careers</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'30px', marginLeft:'869px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p></Link>
+              <Link style={{textDecoration:'none'}} to={{pathname:'./signInPage', state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'18px', marginLeft:'954px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><Button style={signUpBtn} variant="danger">Sign up</Button></Link>
-            </div>      
+              <Link style={{textDecoration:'none'}} to={{pathname:'./signUpPage', state:{}}}><Button style={signUpBtn} variant="danger">Sign up</Button></Link>
+            </div>            
             <div style={{backgroundColor:'', position:'absolute', marginTop:'137px', marginLeft:'120px', height:'356px', width:'416px'}}>
               <p className="" style={{position:'absolute', marginTop:'0', fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy', color:'#4F4F4F'}}><Image className="mb-1 mr-2" src={profilePhotoIcon} height="21px" width="17px" alt="logo"/>Our Team</p>
               <p className="" style={{position:'absolute', marginTop:'20px', fontSize:'45px', fontWeight:'bold', fontFamily:'Gilroy', color:'#333333'}}>We are the #AboutTime team</p>

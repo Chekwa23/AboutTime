@@ -26,12 +26,11 @@ import curvedRectIcon from './images/curvedRectIcon.svg';
 class LandingPage extends Component{
   constructor(){
     super();
-
   }
 
   render(){
     return(
-        <div style={{position:'relative', backgroundColor:'#FFFFFF', width:'1152px', margin:'auto'}}>
+        <div style={{position:'relative', backgroundColor:'#FFFFFF', width:'1152px', height:'2502px', margin:'auto'}}>
           {/* Jumbotron */}
           <Container className="" style={{backgroundColor:'#FAC102', position:'absolute', marginTop:'0px', height:'675px', width:'1152px'}} fluid>
             {/* white rectangle */}
@@ -53,10 +52,10 @@ class LandingPage extends Component{
               <Link style={{textDecoration:'none'}} to={{state:{}}}><p className="topbar" style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FFFFFF'}}>Careers</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'30px', marginLeft:'869px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p></Link>
+              <Link style={{textDecoration:'none'}} to={{pathname:'./signInPage', state:{}}}><p style={{fontFamily:'Gilroy', fontSize:'16px', fontWeight:'600', color:'#FB1242'}}>Sign In</p></Link>
             </div>
             <div style={{position:'absolute', marginTop:'18px', marginLeft:'954px'}}>
-              <Link style={{textDecoration:'none'}} to={{state:{}}}><Button style={signUpBtn} variant="danger">Sign up</Button></Link>
+              <Link style={{textDecoration:'none'}} to={{pathname:'./signUpPage', state:{}}}><Button style={signUpBtn} variant="danger">Sign up</Button></Link>
             </div>            
             <div style={{backgroundColor:'', position:'absolute', marginTop:'137px', marginLeft:'120px', height:'356px', width:'416px'}}>
               <p className="" style={{position:'absolute', marginTop:'0px', fontSize:'14px', fontWeight:'600', fontFamily:'Gilroy', color:'#4F4F4F'}}><Image className="mb-1 mr-2" src={locationLogo} height="21px" width="15px" alt="logo"/>Everywhere</p>
@@ -77,12 +76,12 @@ class LandingPage extends Component{
               <Image className="" src={barLogo} height="224px" width="41px" alt="logo"/>
             </div>
           </Container>
-          <div>
+          <div >
             <Image className="" style={{position:'absolute', marginTop:'654px', marginLeft:'513px'}} src={polygonLogo} height="65px" width="127px" alt="logo"/>
             <Image className="" style={{position:'absolute', marginTop:'675px', marginLeft:'569px'}} src={arrowIcon} height="21px" width="15px" alt="logo"/>
           </div>
           {/* Fast delivery download app */}
-          <Container style={{ position:'absolute', marginTop:'757px', marginLeft:'0px', height:'347px', width:'1152px'}} fluid>
+          <Container style={{backgroundColor:'#FFFFFF', position:'absolute', marginTop:'757px', marginLeft:'0px', height:'347px', width:'1152px'}} fluid>
             <div style={{backgroundColor:"#f7e8b2", position:'absolute', marginLeft:'-15px', height:'347px', width:'407px'}}>
               <Image style={{position:'absolute', marginTop:'26px', marginLeft:'119px', zIndex:'1'}} src={yellowdotsIcon} height="80px" width="94px" alt="logo"/>
               <Image style={{position:'absolute', marginTop:'42px', marginLeft:'192px', zIndex:'2'}} src={iphoneIcon} height="279px" width="138px" alt="logo"/>
@@ -99,12 +98,12 @@ class LandingPage extends Component{
             </div>
           </Container>
           {/* Restaurants */}
-          <Container style={{position:'absolute', marginTop:'1234px', marginLeft:'119px', height:'428px', width:'894px', color:'#4F4F4F'}} fluid>
+          <Container style={{backgroundColor:'#FFFFFF', position:'absolute', marginTop:'1234px', marginLeft:'119px', height:'428px', width:'894px', color:'#4F4F4F'}} fluid>
             <div className="text-center" style={{position:'absolute', marginTop:'0px'}}>
               <p style={{fontFamily:'gilroy', fontSize:'28px', fontWeight:'bold'}}>Our Resturants</p>
               <p style={{fontFamily:'gilroy', fontSize:'18px', fontWeight:'normal'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus sapien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
             </div>
-            <div style={{backgroundColor:'', position:'absolute', marginTop:'170px', height:'258px', width:'100%'}}>
+            <div style={{backgroundColor:'', position:'absolute', marginTop:'170px', marginLeft:'-15px', height:'258px', width:'100%'}}>
               <div style={{position:'absolute', marginLeft:'0px', height:'100%', width:"268px"}}>
                 <Image src={restaurantIcon} style={{position:'absolute', zIndex:'1'}} height="258px" width="268px" alt="logo"/>
                 <Image src={curvedRectIcon} style={{position:'absolute', marginLeft:'0px', marginTop:'209px', zIndex:'2'}} height="49px" width="137px" alt="logo"/>
@@ -140,7 +139,7 @@ class LandingPage extends Component{
               <p style={{pofontFamily:'gilroy', fontSize:'28px', fontWeight:'bold'}}>Get the app and start ordering.</p>
             </div>
             <div style={{position:'absolute', marginTop:'122px', marginLeft:'139px', height:'81px', width:'466px'}}>
-              <p style={{pofontFamily:'gilroy', fontSize:'18px', fontWeight:'normal'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus sapien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
+              <p style={{fontFamily:'gilroy', fontSize:'18px', fontWeight:'normal'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus sapien nam vulputate aenean commodo, eget diam. Maecenas cras eget felis aliquet quam vitae.</p>
             </div>
             <div style={{position:'absolute', marginTop:'221px', marginLeft:'139px'}}>
               <Button className='mr-4' style={downloadappBtn} variant="danger"><Image className="mb-1 mr-2" src={appstoreIcon} height="25px" width="14px" alt="logo"/>Get on the Appstore</Button>
