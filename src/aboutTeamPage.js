@@ -75,7 +75,7 @@ class aboutTeamPage extends Component{
             <p style={{position:'absolute', fontWeight:'bold', fontSize:'16px', fontFamily:'gilroy', color:'#FB1242', marginTop:'65px', marginLeft:'438px'}}>Name</p>
             <p style={{position:'absolute', fontWeight:'600', fontSize:'20px', fontFamily:'gilroy', color:'#4F4F4F', marginTop:'100px', marginLeft:'438px'}}>Meet #Chekwa</p>
             <p style={{position:'absolute', fontWeight:'bold', fontSize:'16px', fontFamily:'gilroy', color:'#FB1242', marginTop:'166px', marginLeft:'438px'}}>Stack</p>
-            <p style={{position:'absolute', fontWeight:'600', fontSize:'20px', fontFamily:'gilroy', color:'#4F4F4F', marginTop:'201px', marginLeft:'438px'}}>Nigga just wants money</p>
+            <p style={{position:'absolute', fontWeight:'600', fontSize:'20px', fontFamily:'gilroy', color:'#4F4F4F', marginTop:'201px', marginLeft:'438px'}}>Software Engineer</p>
             <p style={{position:'absolute', fontWeight:'bold', fontSize:'16px', fontFamily:'gilroy', color:'#FB1242', marginTop:'267px', marginLeft:'438px'}}>Description</p>
             <p style={{position:'absolute', fontWeight:'600', fontSize:'20px', fontFamily:'gilroy', color:'#4F4F4F', marginTop:'302px', marginLeft:'438px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus lectus sit sit. Ut nunc facilisi senectus ut at risus feugiat lectus. Velit morbi commodo habitant risus ultricies elit. Cursus at nulla dolor ac vulputate. Ultrices.</p>
           </Container>
